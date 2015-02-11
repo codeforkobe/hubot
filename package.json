@@ -1,0 +1,40 @@
+{
+  "name": "hubot",
+  "description": "A Hubot for the Code for Kobe",
+  "version": "1.0.0",
+  "author": "bouzuya",
+  "bugs": {
+    "url": "https://github.com/codeforkobe/hubot/issues"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.0",
+    "hubot": "^2.11.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.1.2",
+    "hubot-google-translate": "^0.1.0",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-maps": "0.0.1",
+    "hubot-pugme": "^0.1.0",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-shipit": "^0.1.1",
+    "hubot-slack": "^3.2.1",
+    "hubot-youtube": "^0.1.2"
+  },
+  "homepage": "https://github.com/codeforkobe/hubot",
+  "keywords": [
+    "hubot",
+    "codeforkobe"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeforkobe/hubot"
+  },
+  "scripts": {
+    "start": "hubot --adapter slack --name hubot",
+    "test": "exit 0"
+  }
+}
